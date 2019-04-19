@@ -1,0 +1,273 @@
+﻿/*reset*/
+  nav .col-md-2,
+  nav .col-md-9,
+  nav .col-md-offset-1,
+  .navbar-header,
+  .navbar-inverse,
+  nav .container,
+  .navbar-collapse{
+    background-color: transparent;
+    /*background-color: #00082b;*/
+    border-color: transparent;
+  }
+  .navbar{
+    height: 61px;
+  }
+  
+/*body*/
+  body{
+    overflow-y:auto; 
+    color: #fff;
+    background-color: #FFF;
+  }
+
+/*content*/
+/*case1*/
+  .case1{
+    position: relative;
+    color: #fff;
+    text-align: center;
+  }
+  .case1 img{
+    width: 100%;
+  }
+  .case1Wrap{
+    position: absolute;
+    width: 634px;
+    height: 700px;
+    top: 50%;
+    margin-top: -350px;
+    left: 50%;
+    margin-left: -317px;
+  }
+  .case1Wrap h1,
+  .case1Wrap h2,
+  .case1Wrap h3,
+  .case1Wrap h4,
+  .case1Wrap li{
+    margin:0;
+    padding: 0;
+  }
+  .case1Wrap h1{
+    margin-top:165px;
+    background: url(../img/case2.png) 170px -8px no-repeat;
+    font-size:36px;
+  }
+  .case1Wrap h2{
+    width: 100%;
+    margin-top:30px;
+    font-size:26px;
+  }
+  .case1Wrap h3{
+    margin-top:30px;
+    font-size:26px;
+  }
+  .case1Wrap h4{
+    margin-top:27px;
+    font-size:26px;
+  }
+  .case1Wrap ul{
+    margin-top:146px;
+  }
+  .case1Wrap li{
+    margin-bottom: 10px;
+    padding-left: 220px;
+    font-size:18px;
+    color: #666;
+    text-align: left;
+  }
+  .case1Wrap li span{
+    display:inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color:#666; 
+  }
+  .case1 a{
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .case1 a:hover{
+    color: #fff;
+  }
+  .case1 a:hover span{
+    background-color: #fff;
+  }
+
+
+/*case2*/
+  .caseUnit{
+    width: 1200px;
+    margin:0 auto;
+    text-align: center;
+  }
+  .caseUnit .tit{
+    width: 720px;
+    margin:0 auto;
+    overflow: hidden;
+  }
+  .caseUnit .tit li{
+    position: relative;
+    float: left;
+    width: 33.33%;
+    border-bottom: 1px solid #9caaaf;
+    font-size:24px;
+    color: #9caaaf;
+    line-height: 60px;
+  }
+  .caseUnit .tit li:hover{
+    cursor: pointer;
+  }
+  .caseUnit .tit li span{
+    position: absolute;
+    bottom: 0px;
+    left: 38px;
+    display: block;
+    width: 160px;
+    height: 3px;
+    background-color: #133a8d;
+  }
+  .caseUnit h3{
+    margin:0 auto 58px; 
+    font-size:28px;
+    color: #222;
+  }
+  .caseUnit .content{
+    padding-top: 70px;
+  }
+  .caseUnit .col-md-4{
+    color: #666;
+    font-size: 16px;
+  }
+  .caseUnit .col-md-4 dd{
+    line-height: 30px;
+  }
+  .caseUnit .col-md-4 .big{
+    margin:74px auto 70px;
+    font-size: 22px;
+  }
+  .caseUnit .wrap{
+    position: relative;
+    height: 644px;
+    width: 100%;
+    background: url(../img/case211bg.png) center 90px no-repeat;
+  }
+  .caseUnit .wrap div{
+    position: absolute;  
+    padding:20px 24px; 
+    border-radius:18px;
+    background-color: #4b99f5;  
+    border:1px solid #4b99f5;
+    font-size: 16px;
+    color: #fff;
+    text-align:left;
+    line-height: 30px;
+  }
+  .caseUnit .wrap h6{
+    position: absolute;
+    font-weight: normal;
+    font-size: 20px;
+    color:#0e78f5;
+  }
+  .case21{
+    padding: 100px 0 50px;
+    background-color:#d2eff9; 
+  }
+  .case21 .caseUnit .wrap h6{
+    top: 374px;
+    left: 556px;
+  }
+  .case21 .wrap div:nth-child(1){
+    top: 90px;
+    left: 0px;
+    width: 275px;
+    height: 132px;
+  }
+  .case21 .wrap div:nth-child(2){
+    top: 375px;
+    left: 0px;
+    width: 314px;
+    height: 163px;
+  }
+  .case21 .wrap div:nth-child(3){
+    top: 136px;
+    right: 0px;
+    width: 260px;
+    height: 192px;
+  }
+
+
+  .case22{
+    padding: 100px 0 50px;
+    background-color:#e8f7fc; 
+  }
+  .case22 .caseUnit .wrap h6{
+    top: 352px;
+    left: 553px;
+  }
+  .case22 .caseUnit .wrap{
+    background: url(../img/case212bg.png) center 67px no-repeat
+  }
+  .case22 .wrap div:nth-child(1){
+    top: -3px;
+    left: -42px;
+    width: 472px;
+    height: 192px;
+  }
+  .case22 .wrap div:nth-child(2){
+    top: 350px;
+    left: -42px;
+    width: 387px;
+    height: 223px;
+  }
+  .case22 .wrap div:nth-child(3){
+    top: 114px;
+    right: -31px;
+    width: 359px;
+    height: 254px;
+  }
+
+
+  .case23{
+    padding: 100px 0 50px;
+    background-color:#c7ebf8; 
+  }
+  .case23 .caseUnit .wrap h6{
+    top: 455px;
+    left: 546px;
+    color: #0e78f5;
+  }
+  .case23 .caseUnit .wrap{
+    height: 900px;
+    background: url(../img/case213bg.png) center 172px no-repeat;
+  }
+  .case23 .wrap div:nth-child(1){
+    top: 67px;
+    left: -42px;
+    width: 436px;
+    height: 227px;
+  }
+  .case23 .wrap div:nth-child(2){
+    top: 456px;
+    left: 14px;
+    width: 258px;
+    height: 310px;
+  }
+  .case23 .wrap div:nth-child(3){
+    top: 220px;
+    right: 15px;
+    width: 274px;
+    height: 341px;
+  }
+
+/*oth*/    
+  .change1{
+    margin-top:-20px;
+    margin-left: 21px;
+  }
+  .change2{
+    margin-top:-40px;
+    margin-left: 10px;
+  }

@@ -1,0 +1,253 @@
+﻿/*reset*/
+  nav .col-md-2,
+  nav .col-md-9,
+  nav .col-md-offset-1,
+  .navbar-header,
+  .navbar-inverse,
+  nav .container,
+  .navbar-collapse{
+    background-color: #071d4e;
+    border-color: transparent;
+  }
+
+/*body*/
+  body{
+    overflow-y:auto;
+    color: #fff;
+    background-color: #071d4e;
+  }
+
+/*content*/
+  .serOth .row,
+  .service1 .row{
+    margin-top:80px;
+    margin-bottom: 80px;
+  }
+/*service1*/
+  .service1{
+    width:100%;
+    overflow: hidden;
+    height: 800px;
+    /*border-bottom:1px solid #071d4e;*/
+    background: url(../img/ser1.png) center right no-repeat;
+  }
+  .service1 .container{
+    margin: 165px auto 240px;
+  }
+  .service1 h1,
+  .service1 h2,
+  .service1 p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  .service1 h1{
+    font-size: 60px;
+  }
+  .service1 h2{
+    margin: 30px 0px 50px;
+    font-size: 36px;
+  }
+  .service1 p{
+    font-size: 24px;
+    color: #0090ff;
+  }
+
+/*serOth*/
+  .serOth{
+    padding: 120px 0 0px; 
+    background-color: #061130;
+  }
+  .serOth .container{
+    width: 1240px;
+  }
+
+/*service2*/
+  .service2,
+  .service4{       
+    color: #13acfb;
+  }
+  .service2 .content{
+    background: url(../img/serContent.png) center center no-repeat;
+  }
+  .service4 .content{
+    background: url(../img/serContent.png) center -282px no-repeat;
+  }      
+  .service2 h3,
+  .service4 h3{
+    margin: 136px 0 50px;
+    font-size: 32px;
+    text-align: center;
+  }
+  .service2 p,
+  .service4 p{
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .service2 .bg,
+  .service4 .bg{
+    height: 600px;
+  }
+  .service2 .bg1{
+    background: url(../img/serBg1.png) center center no-repeat;
+  }
+  .service2 .bg2{
+    background: url(../img/serBg2.png) center center no-repeat;
+  }
+  .service2 .bg3{
+    background: url(../img/serBg3.png) center center no-repeat;
+  }
+  .service4 .bg4{
+    background: url(../img/serBg4.png) center center no-repeat;
+  }
+  .serDls div:nth-child(1) dl{
+    height: 400px;
+    padding-top: 220px;
+    text-align: center;
+    background: url(../img/serDls1.png) top center no-repeat;
+  }
+  .serDls div:nth-child(2) dl{
+    height: 400px;
+    padding-top: 220px;
+    text-align: center;
+    background: url(../img/serDls2.png) top center no-repeat;
+  }
+  .serDls div:nth-child(3) dl{
+    height: 400px;
+    padding-top: 220px;
+    text-align: center;
+    background: url(../img/serDls3.png) top center no-repeat;
+  }
+  .serDls div:nth-child(4) dl{
+    height: 400px;
+    padding-top: 220px;
+    text-align: center;
+    background: url(../img/serDls4.png) top center no-repeat;
+  }
+  .serDls2 dl dt,
+  .serDls dl dt{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+  }
+  .serDls2 dl dd,
+  .serDls dl dd{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+
+/*service3*/
+  .service3 img{
+    width: 100%;
+  }
+  .service3Wrap{
+    position: relative;
+    width:1204px;
+    margin:0 auto;
+    height: 640px;
+    background: url(../img/service3Wrap1.png) center center no-repeat;
+  }
+  .service3Wrap div{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    text-align:center;
+    width: auto;
+  }
+  .service3Wrap div span{
+    display: block;
+    line-height:38px;
+  }
+  .service3Wrap div:nth-child(1){
+    top: 303px;
+    left: -146px;
+    width:146px;
+    height: 71px;
+    background: url(../img/service3Wrap2.png) center center no-repeat;
+  }
+  .service3Wrap div:nth-child(2){
+    right: -125px;
+    top: 312px;
+    width:125px;
+    height: 73px;
+    background: url(../img/service3Wrap3.png) center center no-repeat;
+  }
+  .service3Wrap div:nth-child(3),
+  .service3Wrap div:nth-child(4),
+  .service3Wrap div:nth-child(5),
+  .service3Wrap div:nth-child(6),
+  .service3Wrap div:nth-child(7){
+    width: 110px;
+    height: 42px;
+    line-height:42px;
+  }
+  .service3Wrap div:nth-child(3){
+    top: 96px;
+    left: 36px;
+  }
+  .service3Wrap div:nth-child(4){
+    top: 96px;
+    left: 566px;
+  }
+  .service3Wrap div:nth-child(5){
+    top: 96px;
+    left: 1074px;
+  }
+  .service3Wrap div:nth-child(6){
+    top: 264px;
+    left: 289px;
+  }
+  .service3Wrap div:nth-child(7){
+    top: 264px;
+    left: 832px;
+  }
+  .service3Wrap div:nth-child(8),
+  .service3Wrap div:nth-child(9),
+  .service3Wrap div:nth-child(10),
+  .service3Wrap div:nth-child(11),
+  .service3Wrap div:nth-child(12){
+    top:500px;
+  }
+  .service3Wrap div:nth-child(8){
+    left: 0px;
+  }
+  .service3Wrap div:nth-child(9){
+    left: 260px;
+  }
+  .service3Wrap div:nth-child(10){
+    left: 531px;
+  }
+  .service3Wrap div:nth-child(11){
+    left: 809px;
+  }
+  .service3Wrap div:nth-child(12){
+    left: 1073px;
+  }
+
+/*service4*/
+  .serDls2 div:nth-child(1) dl{
+    height: 400px;
+    padding-top: 220px;
+    text-align: center;
+    background: url(../img/serDls5.png) top center no-repeat;
+  }
+  .serDls2 div:nth-child(2) dl{
+    height: 400px;
+    padding-top: 220px;
+    text-align: center;
+    background: url(../img/serDls6.png) top center no-repeat;
+  }
+  .serDls2 div:nth-child(3) dl{
+    height: 400px;
+    padding-top: 220px;
+    text-align: center;
+    background: url(../img/serDls7.png) top center no-repeat;
+  }
+  .serDls2 div:nth-child(4) dl{
+    height: 400px;
+    padding-top: 220px;
+    text-align: center;
+    background: url(../img/serDls8.png) top center no-repeat;
+  }

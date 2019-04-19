@@ -1,0 +1,232 @@
+﻿/*reset*/
+  nav .col-md-2,
+  nav .col-md-9,
+  nav .col-md-offset-1,
+  .navbar-header,
+  .navbar-inverse,
+  nav .container,
+  .navbar-collapse{
+    background-color: transparent;
+    /*background-color: #336f98;*/
+    border-color: transparent;
+  }
+  .navbar{
+    height: 61px;
+  }
+  
+/*body*/
+  body{
+    overflow-y:auto; 
+    color: #fff;
+    background-color: #FFF;
+  }
+
+/*content*/
+/*joinUs1*/
+  .joinUs1{
+    position: relative;
+    color: #fff;
+    text-align: center;
+  }
+  .joinUs1 img{
+    width: 100%;
+  }
+  .joinUs1Con{
+    position: absolute;
+    width: 390px;
+    height: 290px;
+    top: 50%;
+    margin-top: -145px;
+    left: 50%;
+    margin-left: -195px;
+  }
+  .joinUs1 h1,
+  .joinUs1 h2{
+    margin:0;
+    padding: 0; 
+    width: auto;
+    font-weight: normal;
+    font-size: 36px;
+  }
+  .joinUs1 h1{
+    margin:40px auto;
+    font-size: 60px;
+  }
+
+/*joinUs2*/
+  .joinUs2{
+    width: 600px;
+    height: 400px;
+    margin:85px auto 120px; 
+  }
+  .joinUs2 h3{
+    text-align: center;
+    color: #0179ff;
+    font-size: 48px;
+    font-weight: normal;
+  }
+  .joinUs2 h3 span{
+    display: inline-block;
+    width: 140px;
+    height: 2px;
+    border:1px solid #0179ff;
+    margin: 15px;
+  }
+  .joinUs2 ul{
+    margin: 56px 0px 0px 51px; 
+  }
+  .joinUs2 li{
+    font-size:24px;
+    color: #666;
+    line-height: 40px;
+  }
+
+/*joinUs3*/  
+  .joinUs3{
+    position: relative;
+    height: 790px;
+    background-color: #071c4b;
+    color: #fff;
+  }
+  .joinUs3 img{
+    width: 100%;
+  }
+  .joinUs3Wrap{
+    position: absolute;
+    top: 50%;
+    margin-top:-319px;
+    left: 50%;
+    margin-left: -403px;
+    padding:24px 60px 0px;
+    width: 806px;
+    height: 638px;
+    border:10px solid #fff;
+    border-left: transparent;
+  }
+  .joinUs3Wrap h3{
+    margin-bottom: 46px;
+    font-size:48px;
+    text-align: center;
+  }
+  .joinUs3Wrap li{
+    font-size:24px;
+    line-height: 40px;
+  }
+  .joinUs3Wrap span{
+    position: absolute;
+    z-index: 100;
+    display:block;
+  }
+  .joinUs3Wrap span:nth-child(1){
+    top: -10px;
+    left: -10px;
+    width: 10px;
+    height: 74px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+  }
+  .joinUs3Wrap span:nth-child(2){
+    bottom: 54px;
+    right: -14px;
+    width: 14px;
+    height: 236px;
+    border:1px solid #071c4b;
+    background-color: #071c4b;
+  }
+  .joinUs3Wrap span:nth-child(3){
+    bottom: -14px;
+    left: 320px;
+    width: 148px;
+    height: 14px;
+    border:1px solid #071c4b;
+    background-color: #071c4b;
+  }
+  .joinUs3Wrap span:nth-child(4){
+    bottom: -10px;
+    left: -10px;
+    width: 10px;
+    height: 204px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+  }
+
+/*joinUs4*/
+  .joinUs4{
+    width: 890px;
+    height: 550px;
+    margin:98px auto 70px; 
+  }
+  .joinUs4 h3{
+    text-align: center;
+    color: #0179ff;
+    font-size: 48px;
+    font-weight: normal;
+  }
+  .joinUs4 h3 span{
+    display: inline-block;
+    width: 140px;
+    height: 2px;
+    border:1px solid #0179ff;
+    margin: 15px;
+  }
+  .joinUs4 ul{
+    margin-top:46px;
+  }
+  .joinUs4 li{
+    font-size:24px;
+    color: #666;
+    line-height: 40px;
+  }
+  .joinUs4 li:last-child{
+    color: #1883ff;
+  }
+  .joinUs4 ul li:nth-child(1),
+  .joinUs4 ul li:nth-child(3),
+  .joinUs4 ul li:nth-child(5),
+  .joinUs4 ul li:nth-child(7),
+  .joinUs4 ul li:nth-child(8),
+  .joinUs4 ul li:nth-child(9),
+  .joinUs4 ul li:nth-child(10){
+    text-indent: 48px;
+  }
+
+/*joinUs5*/
+  .joinUs5{
+    padding-bottom: 40px;
+    background-color: #0656cf;
+  }
+  .joinUs5 ul{
+    margin-top:165px;
+  }
+  .joinUs5 li{
+    width: 270px;
+    height: 62px;
+    line-height: 62px;
+    font-size:26px;
+    color: #fff;
+    text-align: center;
+  }
+  .joinUs5 li:hover{
+    cursor: pointer;
+  }
+  .joinUs5 .act{
+    color: #0656cf;
+    background-color: #fff;
+  }
+  .joinUs5 .content{
+    padding-left: 40px;
+    border-left: 1px solid #fff;
+  }
+  .joinUs5 dl{
+    margin-top:50px;
+  }
+  .joinUs5 dl:last-child{
+    margin-top:60px;
+  }
+  .joinUs5 .content dt{
+    font-size:20px;
+    font-weight: normal;
+  }
+  .joinUs5 .content dd{
+    font-size:18px;
+  }
